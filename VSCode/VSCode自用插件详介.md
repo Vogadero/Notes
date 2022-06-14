@@ -778,3 +778,43 @@
 
 ![](images/111.gif)
 
+### 66. any-rule ✅
+
+- 发布者：铁皮饭盒
+
+- 简介：你要的"正则"都在这
+
+- 网站：[any-rule - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=russell.any-rule)
+
+- 使用说明
+
+  - **方式1:**
+
+    1. 按**F1**(mac下fn+F1)打开正则列表
+    2. **输入关键词搜索**, 比如"手机"
+
+    ![](images/162.gif)
+
+  - **方式2:**
+
+    右键选择"🦕正则大全"
+
+    ![](images/163.gif)
+
+  - **方式3:**
+
+    在代码任意位置输入"**@zz**"
+
+    ![](images/164.gif)
+
+  - **方式4:**
+
+    快捷键`Alt+z+z`
+
+### 67. Vue VSCode Snippets ✅
+
+- 发布者：sarah.drasner
+- 简介：增强 Vue 工作流程的片段
+- 网站：[Vue VSCode Snippets - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
+
+![](images/165.gif)
