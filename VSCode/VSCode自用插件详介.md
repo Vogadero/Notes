@@ -199,7 +199,19 @@
 
 ![](images/72.gif)
 
-### 21. ESLint Chinese Rules ✅
+### 21. element-ui-helper ✅
+
+- 发布者：胡浪
+- 简介：element-ui文档悬停提示和自动完成工具
+- 同类插件：[Element UI Snippets - Vue.js 2.0的Element-UI的代码片段工具](https://marketplace.visualstudio.com/items?itemName=SS.element-ui-snippets)，[Element Plus Snippets - Vue.js 3.0的Element-Plus的代码片段工具](https://marketplace.visualstudio.com/items?itemName=jingwang37.element-plus-snippets)
+- 使用说明：鼠标悬停在Element-UI 标记或 prop，支持代码自动完成
+- 网站：[element-ui-helper - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=oibit.element-ui-helper)
+
+![](images/48.gif)
+
+![](images/166.gif)
+
+### 22. ESLint Chinese Rules ✅
 
 - 发布者：maggie
 - 简介：ESLint中文规则辅助提示插件，帮助更便捷的查询引用的规则，理解规则。
@@ -207,7 +219,7 @@
 - 使用说明：鼠标悬停在ESLint诊断错误的地方，打开惊喜小提示，点击蓝色提示，方便的跳转文档地址
 - 网站：[ESLint Chinese Rules - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=maggie.eslint-rules-zh-plugin)
 
-### 22. filesize ✅
+### 23. filesize ✅
 
 - 发布者：Matheus Kautzmann
 
@@ -237,7 +249,7 @@
 
 ![](images/78.gif)
 
-### 23. Fluent Icons ✅
+### 24. Fluent Icons ✅
 
 - 发布者：Miguel Solorio
 - 简介：产品图标主题
@@ -245,7 +257,7 @@
 
 ![](images/74.png)
 
-### 24. gitignore ✅
+### 25. gitignore ✅
 
 - 发布者：CodeZombie
 - 简介：使用 https://github.com/github/gitignore 模板快速生成 .gitignore 文件
@@ -254,7 +266,7 @@
 
 ![](images/83.png)
 
-### 25. gitignore ✅
+### 26. gitignore ✅
 
 - 发布者：michelemelluso
 - 简介：将文件/文件夹添加到 .gitignore 文件
@@ -263,7 +275,7 @@
 
 ![](images/84.png)
 
-### 26. HTML CSS Support ✅
+### 27. HTML CSS Support ✅
 
 - 发布者：ecmel
 - 简介：在编写HTML时获得CSS文件中的类名提示
@@ -271,7 +283,7 @@
 
 ![](images/82.png)
 
-### 27. HTMLHint ✅
+### 28. HTMLHint ✅
 
 - 发布者：Mike Kaufman
 
@@ -328,7 +340,7 @@
 
 ![](images/76.png)
 
-### 28. Image preview ✅
+### 29. Image preview ✅
 
 - 发布者：Kiss Tamás
 - 简介：鼠标悬停可以预览图片，显示图片的大小和尺寸。不仅仅在`css`中，也可以在`js`、`vue`等文件中预览哦，可以打开对应的文件夹和项目文件为位置
@@ -336,7 +348,7 @@
 
 ![](images/79.gif)
 
-### 29. Import Cost ✅
+### 30. Import Cost ❌
 
 - 发布者：Wix
 - 简介：以内联方式显示导入包的大小
@@ -344,7 +356,7 @@
 
 ![](images/80.gif)
 
-### 30. IntelliCode ✅
+### 31. IntelliCode ✅
 
 - 发布者：Microsoft
 - 简介：通过在完成列表顶部显示代码上下文的建议完成项来提供 AI 辅助的智能提示
@@ -352,7 +364,7 @@
 
 ![](images/81.gif)
 
-### 31. JavaScript (ES6) code snippets ✅
+### 32. JavaScript (ES6) code snippets ✅
 
 - 发布者：charalampos karypidis
 - 简介：ES6 语法中 JavaScript 的代码片段提示
@@ -360,7 +372,7 @@
 
 ![](images/85.png)
 
-### 32. JavaScript Booster ✅
+### 33. JavaScript Booster ✅
 
 - 发布者：Stephan Burguchev
 - 简介：一款了不起的代码重构工具。比如把var转为const或者let，去除多余的else语句，合并声明和初始化，会提示对应的不合理原因和改进方案，帮助你在不合理的地方显示黄色感叹号，单击黄色感叹号后，就会变成更好的代码。
@@ -368,7 +380,7 @@
 
 ![](images/124.gif)
 
-### 33. JavaScript Snippet Pack ✅
+### 34. JavaScript Snippet Pack ✅
 
 - 发布者：Mahmoud Ali
 - 简介：为 JavaScript 和 TypeScript 提供了大量有用的代码片段
@@ -376,7 +388,7 @@
 
 ![](images/86.png)
 
-### 34. jQuery Code Snippets ✅
+### 35. jQuery Code Snippets ✅
 
 - 发布者：Don Jayamanne
 - 简介：超过130个用于JavaScript代码的jQuery代码片段，只需键入字母 `jq` 即可获得所有可用jQuery代码片段的列表
@@ -384,7 +396,7 @@
 
 ![](images/87.png)
 
-### 35. layui-layer-snippets ✅
+### 36. layui-layer-snippets ✅
 
 - 发布者：写代码的猫叔
 - 简介：输入`lay`即可看到layui-layer常用代码片段
@@ -394,7 +406,7 @@
 
 ![](images/89.gif)
 
-### 36. Live Server ✅
+### 37. Live Server ✅
 
 - 发布者：Ritwick Dey
 - 简介：启动具有静态和动态页面实时重新加载功能的本地开发服务器
@@ -404,7 +416,7 @@
 
 ![](images/91.jpg)
 
-### 37. Local History ✅
+### 38. Local History ✅
 
 - 发布者：xyz
 - 简介：每次修改文件时，旧内容的副本都会保留在本地历史记录中
@@ -412,7 +424,7 @@
 
 ![](images/92.png)
 
-### 38. Markdown Emoji ✅
+### 39. Markdown Emoji ✅
 
 - 发布者：Matt Bierner
 - 简介：将表情符号语法支持添加到 VS Code 的内置 Markdown 预览
@@ -420,7 +432,7 @@
 
 ![](images/93.png)
 
-### 39. Markdown Preview Enhanced ✅
+### 40. Markdown Preview Enhanced ✅
 
 - 发布者：Yiyi Wang
 - 简介：让你拥有飘逸的 Markdown 写作体验
@@ -428,7 +440,7 @@
 
 ![](images/94.png)
 
-### 40. Path Intellisense ✅
+### 41. Path Intellisense ✅
 
 - 发布者：Christian Kohler
 - 简介：文件名路径智能感知
@@ -436,7 +448,7 @@
 
 ![](images/95.gif)
 
-### 41. Polacode-2020 ✅
+### 42. Polacode-2020 ✅
 
 - 发布者：Jeff Hykin
 - 简介：代码截取屏幕截图
@@ -445,7 +457,7 @@
 
 ![](images/96.gif)
 
-### 42. project-tree ✅
+### 43. project-tree ✅
 
 - 发布者：zhucy
 
@@ -467,7 +479,7 @@
 
 ![](images/97.png)
 
-### 43. px to rem & rpx & vw (cssrem) ✅
+### 44. px to rem & rpx & vw (cssrem) ✅
 
 - 发布者：cipchk
 - 简介：一个 `px` 与 `rem` 单位互转的 VSCode 插件，且支持WXSS微信小程序
@@ -476,7 +488,7 @@
 
 ![](images/98.gif)
 
-### 44. REST Client ✅
+### 45. REST Client ✅
 
 - 发布者：Huachao Mao
 - 简介：提供了丰富的api配置方式，在vscode中发送/取消/重新运行 **HTTP 请求**，进行接口调试，并在单独的窗格中查看响应，并突出显示语法。
@@ -488,7 +500,7 @@
 
 ![](images/99.gif)
 
-### 45. Settings Sync ✅
+### 46. Settings Sync ✅
 
 - 发布者：Shan Khan
 - 简介：在编辑器中发送/取消/重新运行 **HTTP 请求**，并在单独的窗格中查看响应，并突出显示语法
@@ -497,7 +509,7 @@
 
 ![](images/101.png)
 
-### 46. SVG ✅
+### 47. SVG ✅
 
 - 发布者：jock
 - 简介：SVG编码，缩小，漂亮，预览多合一
@@ -505,7 +517,7 @@
 
 ![](images/102.gif)
 
-### 47. Thunder Client ✅
+### 48. Thunder Client ✅
 
 - 发布者：Ranga Vadhineni
 - 简介：VSCode的轻量级 Rest API 客户端
@@ -514,7 +526,7 @@
 
 ![](images/104.gif)
 
-### 48. Todo Tree ✅
+### 49. Todo Tree ✅
 
 - 发布者：Gruntfuggly
 
@@ -582,7 +594,7 @@
 
 ![](images/105.png)
 
-### 49. view-in-browser ✅
+### 50. view-in-browser ✅
 
 - 发布者：Koppt Ho
 - 简介：在浏览器中预览`HTML`文件，支持Chrome，Firefox，Opera，Safari，IE。
@@ -590,7 +602,7 @@
 
 ![](images/108.png)
 
-### 50. vscode-icons ✅
+### 51. vscode-icons ✅
 
 - 发布者：VSCode Icons Team
 - 简介：漂亮的目录树文件图标主题
@@ -598,7 +610,7 @@
 
 ![](images/109.gif)
 
-### 51. 翻译(英汉词典) ❌
+### 52. 翻译(英汉词典) ❌
 
 - 发布者：中文编程
 
@@ -615,25 +627,6 @@
 ![](images/116.gif)
 
 ![](images/117.gif)
-
-### 52. Angular Language Service ❌
-
-- 发布者：Angular
-
-- 简介：Angular 语言服务让你能在 Angular 模板内获得自动补全、错误检查、查看定义、快速定位、给出提示和内部导航等功能，而不用管这些模板位于外部 HTML 文件中还是内嵌在注解/装饰器的字符串中。 Angular 语言服务会自动检测你要打开的 Angular 文件（从你的 tsconfig.json 中读取），找出应用中所需的所有模板，然后为你打开的这些模板提供语言服务。
-
-- 配置说明
-
-  ```json
-  // Angular 语言服务使用与编译应用程序相同的选项集
-  "angularCompilerOptions": {
-    "strictTemplates": true
-  }
-  ```
-
-- 网站：[Angular Language Service - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
-
-![](images/48.gif)
 
 ### 53. code settings sync ❌
 
@@ -754,7 +747,7 @@
 
 ![](images/106.png)
 
-### 63. Vetur ❌
+### 63. Vetur ✅
 
 - 发布者：Pine Wu
 - 简介：Vue 支持工具
@@ -762,7 +755,7 @@
 
 ![](images/107.png)
 
-### 64. Vue 3 Snippets ❌
+### 64. Vue 3 Snippets ✅
 
 - 发布者：hollowtree
 - 简介：基于最新的 Vue 2 及 Vue 3 的 API 添加了 Code Snippets
@@ -770,15 +763,7 @@
 
 ![](images/110.gif)
 
-### 65. wpy-beautify ❌
-
-- 发布者：doingweb
-- 简介：美化vscode的wpy/vue代码
-- 网站：[wpy-beautify - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=doingweb.wpy-beautify)
-
-![](images/111.gif)
-
-### 66. any-rule ✅
+### 65. any-rule ✅
 
 - 发布者：铁皮饭盒
 
@@ -811,7 +796,7 @@
 
     快捷键`Alt+z+z`
 
-### 67. Vue VSCode Snippets ✅
+### 66. Vue VSCode Snippets ✅
 
 - 发布者：sarah.drasner
 - 简介：增强 Vue 工作流程的片段
