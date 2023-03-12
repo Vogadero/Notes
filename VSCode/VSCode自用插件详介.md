@@ -803,3 +803,19 @@
 - 网站：[Vue VSCode Snippets - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
 
 ![](images/165.gif)
+
+### 67. Vant Snippets ✅
+
+- 发布者：鸿泷
+- 简介：增强 Vant 工作流程的片段
+- 网站：[Vant Snippets - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=fishku.vant-snippets)
+
+![](images/167.gif)
+
+### 68. vscode-TDesign ✅
+
+- 发布者：marvengong
+- 简介：TDesign 组件自动补全、悬停显示组件 Api 文档、Vue 组件快速创建
+- 网站：[vscode-TDesign - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=marvengong.vscode-TDesign)
+
+![](images/168.gif)
