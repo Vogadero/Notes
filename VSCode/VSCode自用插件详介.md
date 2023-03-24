@@ -41,7 +41,7 @@
 
 ![](images/46.png)
 
-### 5. A-super-themes ✅
+### 5. A-super-themes ❌
 
 - 发布者：雪导
 - 简介：暗黑+霓虹灯+80 年代幻想主题
