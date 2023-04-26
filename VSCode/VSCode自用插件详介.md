@@ -819,3 +819,11 @@
 - 网站：[vscode-TDesign - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=marvengong.vscode-TDesign)
 
 ![](images/168.gif)
+
+### 69. ppz ✅
+
+- 发布者：ppz
+- 简介：提供操作数据库的图形界面
+- 网站：[ppz - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ppz.ppz)
+
+![](images/169.gif)
