@@ -65,15 +65,12 @@
 
 ![](images/49.gif)
 
-### 8. Beautify ✅
+### 8. Prettier - Code formatter 
 
-- 发布者：HookyQR
-- 简介：Beautify是格式化代码的插件，可美化JS、JSON、CSS、Sass、HTML
+- 发布者：[Prettier](https://marketplace.visualstudio.com/publishers/esbenp)
+- 简介：漂亮的代码格式化程序
 - 快捷键：`Alt+F`
-- 同类插件：[**Prettier - Code formatter**](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- 网站：[Beautify - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
-
-![](images/50.png)
+- 网站：[Prettier - Code formatter - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ### 9. Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets ✅
 
@@ -285,7 +282,7 @@
 
 ### 28. HTMLHint ✅
 
-- 发布者：Mike Kaufman
+- 发布者：[HTMLHint](https://marketplace.visualstudio.com/publishers/HTMLHint)
 
 - 简介：html文件的代码检查工具，对打开的HTML文件运行HTMLHint，并在“问题”面板（**“查看**”>“问题”）中报告状态栏上的错误数以及**详细信息**，HTML 文件中的错误使用波浪线突出显示，您可以将鼠标悬停在波浪线上以查看错误消息。
 
@@ -334,7 +331,7 @@
       }
   ```
 
-- 网站：[HTMLHint - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)
+- 网站：[HTMLHint - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=HTMLHint.vscode-htmlhint)
 
 ![](images/75.png)
 
@@ -500,7 +497,7 @@
 
 ![](images/99.gif)
 
-### 46. Settings Sync ✅
+### 46. Settings Sync ❌
 
 - 发布者：Shan Khan
 - 简介：在编辑器中发送/取消/重新运行 **HTTP 请求**，并在单独的窗格中查看响应，并突出显示语法
@@ -750,7 +747,7 @@
 ### 63. Vetur ✅
 
 - 发布者：Pine Wu
-- 简介：Vue 支持工具
+- 简介：Vue2 支持工具
 - 网站：[Vetur - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
 ![](images/107.png)
@@ -827,3 +824,64 @@
 - 网站：[ppz - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ppz.ppz)
 
 ![](images/169.gif)
+
+### 70. env-cmd-file-syntax ✅
+
+- 发布者：[Nixon](https://marketplace.visualstudio.com/publishers/Nixon)
+- 简介：突出显示 .env 文件（例如 .env、.env.development 等）中的键值字符串
+- 网站：[env-cmd-file-syntax - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Nixon.env-cmd-file-syntax)
+
+### 71. IntelliCode API Usage Examples ✅
+
+- 发布者：[Microsoft](https://marketplace.visualstudio.com/publishers/Microsoft)
+- 简介：直接在编辑器中查看 GitHub 中超过 100K 个不同 API 的相关代码示例
+- 网站：[IntelliCode API 用法示例 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.intellicode-api-usage-examples)
+
+### 72. TypeScript Vue Plugin (Volar) ❌
+
+- 发布者：[Vue](https://marketplace.visualstudio.com/publishers/Vue)
+- 简介：TypeScript 服务器的 Vue 插件
+- 网站：[TypeScript Vue Plugin (Volar) - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
+
+### 73. Vue - Official ✅
+
+- 发布者：[Vue](https://marketplace.visualstudio.com/publishers/Vue)
+- 简介：对 Vue 3 的语言支持
+- 网站：[Vue - Official - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+
+### 74. uni-create-view ✅
+
+- 发布者：[毛先生](https://marketplace.visualstudio.com/publishers/mrmaoddxxaa)
+- 简介：快速创建 uniapp 视图与组件!
+- 网站：[uni-create-view - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=mrmaoddxxaa.create-uniapp-view)
+
+### 75. uni-helper ✅
+
+- 发布者：[Uni Helper](https://marketplace.visualstudio.com/publishers/uni-helper)
+- 简介：增强 uni-app 系列产品在 VSCode 内的体验
+- 网站：[uni-helper - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-helper-vscode)
+
+### 76. uniapp小程序扩展 ✅
+
+- 发布者：[evils](https://marketplace.visualstudio.com/publishers/evils)
+- 简介：可能是最好用的uniapp小程序扩展,自动提示标签可用属性,鼠标悬浮查询属性文档,新增支持uview的组件提示
+- 网站：[uniapp小程序扩展 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=evils.uniapp-vscode)
+
+### 77. uview-helper ✅
+
+- 发布者：[tntgroup](https://marketplace.visualstudio.com/publishers/tntgroup)
+- 简介：uView-Helper 是一个针对使用 uView UI 的 VSCode 扩展，已支持 uView UI v2.x, uView Plus v3.x
+- 网站：[uview-helper - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=tntgroup.uview-helper)
+
+### 78. ESLint ✅
+
+- 发布者：[Microsoft](https://marketplace.visualstudio.com/publishers/Microsoft)
+- 简介：将ESLint JavaScript集成到VS Code中
+- 网站：[ESLint - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+### 79. 📜林檎的旅行笔记 ✅
+
+- 发布者：[linqin](https://marketplace.visualstudio.com/publishers/linqin)
+- 简介：代码提示神奇
+- 用法：使用点语法输入代码, 后面跟上中文. 例如: .删除 就会出现相应的代码, 选择即可
+- 网站：[📜林檎的旅行笔记 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=linqin.linqin-js-snippets)

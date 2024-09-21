@@ -4,8 +4,6 @@
 
 [TOC]
 
-
-
 ### 1. 只安装有必要的库
 
 - `npm install` 的速度显然与它依赖的包的多少是正相关的，那减少包的数量就可以减少装包所花费的时间。这个道题如同每天都少吃一顿饭就会变瘦一样简单。
@@ -34,7 +32,7 @@ $ NODE_ENV=production npm config get production true
 - 使用 `npm config` 来设置 npm 仓库，它将把仓库信息写入 `~/.npmrc` 中，这足以适用于 `CICD` 中。
 
   ```
-  npm config set registry https://registry-npm.shanyue.tech/
+  npm config set registry https://registry.npmmirror.com
   ```
 
 ### 3. 充分利用缓存
