@@ -885,3 +885,15 @@
 - 简介：代码提示神奇
 - 用法：使用点语法输入代码, 后面跟上中文. 例如: .删除 就会出现相应的代码, 选择即可
 - 网站：[📜林檎的旅行笔记 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=linqin.linqin-js-snippets)
+
+### 80. TONGYI Lingma ✅
+
+- 发布者：[Alibaba-Cloud](https://marketplace.visualstudio.com/publishers/Alibaba-Cloud)
+- 简介：通义灵码-灵动指间，快码加编，你的智能编码助手
+- 网站：[TONGYI Lingma - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Alibaba-Cloud.tongyi-lingma)
+
+### 81. Baidu Comate ✅
+
+- 发布者：[Baidu Comate](https://marketplace.visualstudio.com/publishers/BaiduComate)
+- 简介：基于百度文心大模型 `ERNIE-Code` 的智能代码生成
+- 网站：[Baidu Comate - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=BaiduComate.comate)
