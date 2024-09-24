@@ -69,4 +69,16 @@
    git branch
    ```
 
-   
+8. 或者在步骤6创建 `Pull Reques`t：
+
+   - 在 GitHub 或 GitLab 上创建 PR，进行代码审查。
+
+9. 合并 PR 并删除分支：
+
+   - 合并 PR 到 `master` 分支。
+
+   - 删除远程功能分支：
+
+     ```shell
+     git push origin --delete goodsdetail
+     ```
