@@ -1,6 +1,8 @@
 # VSCode自用插件详介
 
 > 工欲善其事必先利其器，VSCode：我变强了，也变臃肿了~
+>
+> 启用：✅；启用：💥；禁用：❌
 
 [TOC]
 
@@ -41,7 +43,7 @@
 
 ![](images/46.png)
 
-### 5. A-super-themes ❌
+### 5. A-super-themes 💥
 
 - 发布者：雪导
 - 简介：暗黑+霓虹灯+80 年代幻想主题
@@ -49,7 +51,7 @@
 
 ![](images/47.png)
 
-### 6. Art Template Helper ✅
+### 6. Art Template Helper 💥
 
 - 发布者：ZihanLi
 - 简介：VSCode的Art-Template模版支持
@@ -65,14 +67,14 @@
 
 ![](images/49.gif)
 
-### 8. Prettier - Code formatter 
+### 8. Prettier - Code formatter ❌
 
 - 发布者：[Prettier](https://marketplace.visualstudio.com/publishers/esbenp)
 - 简介：漂亮的代码格式化程序
 - 快捷键：`Alt+F`
 - 网站：[Prettier - Code formatter - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-### 9. Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets ✅
+### 9. Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets 💥
 
 - 发布者：Ashok Koyi
 - 简介：Bootstrap 4辅助插件
@@ -114,7 +116,7 @@
 
 ![](images/57.png)
 
-### 14. CSS Peek ✅
+### 14. CSS Peek 💥
 
 - 发布者：Pranay Prakash
 - 简介：使用此插件，你可以追踪至样式表中 CSS 类和 id 定义的地方。当你在 HTML 文件中右键单击选择器时，选择“ Go to Definition 转到定义 和 Peek definition ”选项，它便会给你发送样式设置的 CSS 代码。
@@ -125,7 +127,7 @@
 
 ![](images/59.gif)
 
-### 15. CSS Tree ✅
+### 15. CSS Tree ❌
 
 - 发布者：Sachin Bansal
 - 简介：从选定的 HTML/JSX 生成 CSS 树
@@ -162,7 +164,7 @@
 
 ![](images/68.png)
 
-### 19. Easy LESS ✅
+### 19. Easy LESS ❌
 
 - 发布者：mrcrowl
 
@@ -196,7 +198,7 @@
 
 ![](images/72.gif)
 
-### 21. element-ui-helper ✅
+### 21. element-ui-helper ❌
 
 - 发布者：胡浪
 - 简介：element-ui文档悬停提示和自动完成工具
@@ -216,7 +218,7 @@
 - 使用说明：鼠标悬停在ESLint诊断错误的地方，打开惊喜小提示，点击蓝色提示，方便的跳转文档地址
 - 网站：[ESLint Chinese Rules - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=maggie.eslint-rules-zh-plugin)
 
-### 23. filesize ✅
+### 23. filesize 💥
 
 - 发布者：Matheus Kautzmann
 
@@ -272,7 +274,7 @@
 
 ![](images/84.png)
 
-### 27. HTML CSS Support ✅
+### 27. HTML CSS Support 💥
 
 - 发布者：ecmel
 - 简介：在编写HTML时获得CSS文件中的类名提示
@@ -280,7 +282,7 @@
 
 ![](images/82.png)
 
-### 28. HTMLHint ✅
+### 28. HTMLHint 💥
 
 - 发布者：[HTMLHint](https://marketplace.visualstudio.com/publishers/HTMLHint)
 
@@ -345,7 +347,7 @@
 
 ![](images/79.gif)
 
-### 30. Import Cost ❌
+### 30. Import Cost 💥
 
 - 发布者：Wix
 - 简介：以内联方式显示导入包的大小
@@ -353,7 +355,7 @@
 
 ![](images/80.gif)
 
-### 31. IntelliCode ✅
+### 31. IntelliCode 💥
 
 - 发布者：Microsoft
 - 简介：通过在完成列表顶部显示代码上下文的建议完成项来提供 AI 辅助的智能提示
@@ -361,7 +363,7 @@
 
 ![](images/81.gif)
 
-### 32. JavaScript (ES6) code snippets ✅
+### 32. JavaScript (ES6) code snippets 💥
 
 - 发布者：charalampos karypidis
 - 简介：ES6 语法中 JavaScript 的代码片段提示
@@ -369,7 +371,7 @@
 
 ![](images/85.png)
 
-### 33. JavaScript Booster ✅
+### 33. JavaScript Booster 💥
 
 - 发布者：Stephan Burguchev
 - 简介：一款了不起的代码重构工具。比如把var转为const或者let，去除多余的else语句，合并声明和初始化，会提示对应的不合理原因和改进方案，帮助你在不合理的地方显示黄色感叹号，单击黄色感叹号后，就会变成更好的代码。
@@ -377,7 +379,7 @@
 
 ![](images/124.gif)
 
-### 34. JavaScript Snippet Pack ✅
+### 34. JavaScript Snippet Pack 💥
 
 - 发布者：Mahmoud Ali
 - 简介：为 JavaScript 和 TypeScript 提供了大量有用的代码片段
@@ -385,7 +387,7 @@
 
 ![](images/86.png)
 
-### 35. jQuery Code Snippets ✅
+### 35. jQuery Code Snippets ❌
 
 - 发布者：Don Jayamanne
 - 简介：超过130个用于JavaScript代码的jQuery代码片段，只需键入字母 `jq` 即可获得所有可用jQuery代码片段的列表
@@ -393,7 +395,7 @@
 
 ![](images/87.png)
 
-### 36. layui-layer-snippets ✅
+### 36. layui-layer-snippets ❌
 
 - 发布者：写代码的猫叔
 - 简介：输入`lay`即可看到layui-layer常用代码片段
@@ -497,7 +499,7 @@
 
 ![](images/99.gif)
 
-### 46. Settings Sync ❌
+### 46. Settings Sync 💥
 
 - 发布者：Shan Khan
 - 简介：在编辑器中发送/取消/重新运行 **HTTP 请求**，并在单独的窗格中查看响应，并突出显示语法
@@ -625,7 +627,7 @@
 
 ![](images/117.gif)
 
-### 53. code settings sync ❌
+### 53. code settings sync 💥
 
 - 发布者：gitee-code-settings-sync
 - 简介：用于同步vscode设置到码云（gitee），功能类似[**Settings Sync - Visual Studio Marketplace**](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
@@ -714,7 +716,7 @@
 
 ![](images/103.png)
 
-### 61. Tabnine AI Autocomplete for Javascript, Python, Typescript, PHP, Go, Java, Ruby & more ❌
+### 61. Tabnine AI Autocomplete for Javascript, Python, Typescript, PHP, Go, Java, Ruby & more 💥
 
 - 发布者：TabNine
 - 简介：通过 AI 完成功能加快编码速度
@@ -744,7 +746,7 @@
 
 ![](images/106.png)
 
-### 63. Vetur ✅
+### 63. Vetur ❌
 
 - 发布者：Pine Wu
 - 简介：Vue2 支持工具
@@ -801,7 +803,7 @@
 
 ![](images/165.gif)
 
-### 67. Vant Snippets ✅
+### 67. Vant Snippets ❌
 
 - 发布者：鸿泷
 - 简介：增强 Vant 工作流程的片段
@@ -809,7 +811,7 @@
 
 ![](images/167.gif)
 
-### 68. vscode-TDesign ✅
+### 68. vscode-TDesign ❌
 
 - 发布者：marvengong
 - 简介：TDesign 组件自动补全、悬停显示组件 Api 文档、Vue 组件快速创建
@@ -817,7 +819,7 @@
 
 ![](images/168.gif)
 
-### 69. ppz ✅
+### 69. ppz ❌
 
 - 发布者：ppz
 - 简介：提供操作数据库的图形界面
@@ -831,7 +833,7 @@
 - 简介：突出显示 .env 文件（例如 .env、.env.development 等）中的键值字符串
 - 网站：[env-cmd-file-syntax - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Nixon.env-cmd-file-syntax)
 
-### 71. IntelliCode API Usage Examples ✅
+### 71. IntelliCode API Usage Examples 💥
 
 - 发布者：[Microsoft](https://marketplace.visualstudio.com/publishers/Microsoft)
 - 简介：直接在编辑器中查看 GitHub 中超过 100K 个不同 API 的相关代码示例
@@ -843,31 +845,39 @@
 - 简介：TypeScript 服务器的 Vue 插件
 - 网站：[TypeScript Vue Plugin (Volar) - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
 
-### 73. Vue - Official ✅
+### 73. Vue - Official ❌
 
 - 发布者：[Vue](https://marketplace.visualstudio.com/publishers/Vue)
 - 简介：对 Vue 3 的语言支持
 - 网站：[Vue - Official - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- 备注：与vscode不兼容没装
 
-### 74. uni-create-view ✅
+### 73. Vue Language Features (Volar) ✅
+
+- 发布者：[Vue](https://marketplace.visualstudio.com/publishers/Vue)
+- 简介：对 Vue 3 的语言支持
+- 网站：[Vue - Official - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- 备注：Vue - Official替代品
+
+### 74. uni-create-view ❌
 
 - 发布者：[毛先生](https://marketplace.visualstudio.com/publishers/mrmaoddxxaa)
 - 简介：快速创建 uniapp 视图与组件!
 - 网站：[uni-create-view - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=mrmaoddxxaa.create-uniapp-view)
 
-### 75. uni-helper ✅
+### 75. uni-helper ❌
 
 - 发布者：[Uni Helper](https://marketplace.visualstudio.com/publishers/uni-helper)
 - 简介：增强 uni-app 系列产品在 VSCode 内的体验
 - 网站：[uni-helper - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-helper-vscode)
 
-### 76. uniapp小程序扩展 ✅
+### 76. uniapp小程序扩展 ❌
 
 - 发布者：[evils](https://marketplace.visualstudio.com/publishers/evils)
 - 简介：可能是最好用的uniapp小程序扩展,自动提示标签可用属性,鼠标悬浮查询属性文档,新增支持uview的组件提示
 - 网站：[uniapp小程序扩展 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=evils.uniapp-vscode)
 
-### 77. uview-helper ✅
+### 77. uview-helper ❌
 
 - 发布者：[tntgroup](https://marketplace.visualstudio.com/publishers/tntgroup)
 - 简介：uView-Helper 是一个针对使用 uView UI 的 VSCode 扩展，已支持 uView UI v2.x, uView Plus v3.x
@@ -883,7 +893,7 @@
 
 - 发布者：[linqin](https://marketplace.visualstudio.com/publishers/linqin)
 - 简介：代码提示神奇
-- 用法：使用点语法输入代码, 后面跟上中文. 例如: .删除 就会出现相应的代码, 选择即可
+- 用法：使用点语法输入代码,，后面跟上中文.。例如： .删除 就会出现相应的代码，选择即可
 - 网站：[📜林檎的旅行笔记 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=linqin.linqin-js-snippets)
 
 ### 80. TONGYI Lingma ✅
@@ -897,3 +907,69 @@
 - 发布者：[Baidu Comate](https://marketplace.visualstudio.com/publishers/BaiduComate)
 - 简介：基于百度文心大模型 `ERNIE-Code` 的智能代码生成
 - 网站：[Baidu Comate - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=BaiduComate.comate)
+
+### 82. Git History ✅
+
+- 发布者：[Don Jayamanne](https://marketplace.visualstudio.com/publishers/donjayamanne)
+- 简介：查看 git 日志、文件历史记录、比较分支或提交
+- 网站：[Git 历史记录 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+
+![](images/170.gif)
+
+![](images/171.gif)
+
+![](images/172.gif)
+
+![](images/173.gif)
+
+### 83. uni-app-schemas ❌
+
+- 发布者：[Uni Helper](https://marketplace.visualstudio.com/publishers/uni-helper)
+- 简介：校验 uni-app 中的 androidPrivacy.json、pages.json 和 manifest.json 格式
+- 网站：[uni-app-schemas - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-schemas-vscode)
+
+### 84. uni-app-snippets ❌
+
+- 发布者：[Uni Helper](https://marketplace.visualstudio.com/publishers/uni-helper)
+- 简介：uni-app 基本能力代码片段
+- 网站：[uni-app-snippets - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-snippets-vscode)
+
+### 85. uni-cloud-snippets ❌
+
+- 发布者：[Uni Helper](https://marketplace.visualstudio.com/publishers/uni-helper)
+- 简介：uni-cloud 基本能力代码片段
+- 网站：[uni-cloud-snippets - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-cloud-snippets-vscode)
+
+### 86. uni-highlight ❌
+
+- 发布者：[Uni Helper](https://marketplace.visualstudio.com/publishers/uni-helper)
+- 简介：在 Vscode中对条件编译的代码注释部分提供了语法高亮
+- 网站：[uni-highlight - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-highlight-vscode)
+
+### 87. uni-ui-snippets ❌
+
+- 发布者：[Uni Helper](https://marketplace.visualstudio.com/publishers/uni-helper)
+- 简介：uni-ui 基本能力代码片段。
+- 网站：[uni-ui-snippets - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-ui-snippets-vscode)
+
+### 88. Ant Design Snippets ✅
+
+- 发布者：[bang](https://marketplace.visualstudio.com/publishers/bang)
+- 简介：VS Code 的 Ant-Design 代码段
+- 网站：[Ant Design 代码片段 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=bang.antd-snippets)
+
+![](images/174.gif)
+
+### 89. iView-helper ✅
+
+- 发布者：[liuyanchen](https://marketplace.visualstudio.com/publishers/liuyanchen)
+- 简介：iView-helper 是 View UI 的 VS Code 扩展。 包含了View UI 所有组件的porps提示和说明
+- 网站：[iView-helper - Visual Studio 市场](https://marketplace.visualstudio.com/items?itemName=liuyanchen.vscode-iview-helper)
+
+![](images/175.gif)
+
+### 90. Auto Import ✅
+
+- 发布者：[steoates](https://marketplace.visualstudio.com/publishers/steoates)
+- 简介：自动查找、解析所有可用导入并提供代码操作和代码完成。与 Typescript 和 TSX 配合使用
+- 网站：[自动导入 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
