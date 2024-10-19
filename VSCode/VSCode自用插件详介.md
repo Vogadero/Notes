@@ -363,7 +363,7 @@
 
 ![](images/81.gif)
 
-### 32. JavaScript (ES6) code snippets 💥
+### 32. JavaScript (ES6) code snippets ✅
 
 - 发布者：charalampos karypidis
 - 简介：ES6 语法中 JavaScript 的代码片段提示
@@ -379,7 +379,7 @@
 
 ![](images/124.gif)
 
-### 34. JavaScript Snippet Pack 💥
+### 34. JavaScript Snippet Pack ✅
 
 - 发布者：Mahmoud Ali
 - 简介：为 JavaScript 和 TypeScript 提供了大量有用的代码片段
@@ -387,7 +387,7 @@
 
 ![](images/86.png)
 
-### 35. jQuery Code Snippets ❌
+### 35. jQuery Code Snippets 💥
 
 - 发布者：Don Jayamanne
 - 简介：超过130个用于JavaScript代码的jQuery代码片段，只需键入字母 `jq` 即可获得所有可用jQuery代码片段的列表
@@ -889,7 +889,7 @@
 - 简介：将ESLint JavaScript集成到VS Code中
 - 网站：[ESLint - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-### 79. 📜林檎的旅行笔记 ✅
+### 79. 📜林檎的旅行笔记 💥
 
 - 发布者：[linqin](https://marketplace.visualstudio.com/publishers/linqin)
 - 简介：代码提示神奇
