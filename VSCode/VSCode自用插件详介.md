@@ -839,25 +839,22 @@
 - 简介：直接在编辑器中查看 GitHub 中超过 100K 个不同 API 的相关代码示例
 - 网站：[IntelliCode API 用法示例 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.intellicode-api-usage-examples)
 
-### 72. TypeScript Vue Plugin (Volar) ❌
+### 72. TypeScript Vue Plugin (Volar) 💥
 
 - 发布者：[Vue](https://marketplace.visualstudio.com/publishers/Vue)
-- 简介：TypeScript 服务器的 Vue 插件
+- 简介：TypeScript 服务器的 Vue 插件，此插件代理 TS 服务器请求以提供一些额外的功能：
+  - 在 *.ts 文件中查找引用时，你也会从 *.vue 文件中获取结果。
+  - 在 *.ts 文件中重命名时，*.vue 文件上的引用也会被调整。
+  - 当键入 import 语句时，*.vue 文件也会出现用于自动补全
 - 网站：[TypeScript Vue Plugin (Volar) - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
+- 备注：已经被官方弃用
 
-### 73. Vue - Official ❌
-
-- 发布者：[Vue](https://marketplace.visualstudio.com/publishers/Vue)
-- 简介：对 Vue 3 的语言支持
-- 网站：[Vue - Official - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
-- 备注：与vscode不兼容没装
-
-### 73. Vue Language Features (Volar) ✅
+### 73. Vue - Official ✅
 
 - 发布者：[Vue](https://marketplace.visualstudio.com/publishers/Vue)
 - 简介：对 Vue 3 的语言支持
 - 网站：[Vue - Official - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
-- 备注：Vue - Official替代品
+- 备注：TypeScript Vue Plugin（也就是此前的Volar ts版本）被弃用，Volar更新后的改名版本
 
 ### 74. uni-create-view ❌
 
@@ -973,3 +970,15 @@
 - 发布者：[steoates](https://marketplace.visualstudio.com/publishers/steoates)
 - 简介：自动查找、解析所有可用导入并提供代码操作和代码完成。与 Typescript 和 TSX 配合使用
 - 网站：[自动导入 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
+
+### 91. Vue Ecosystem Snippets ✅
+
+- 发布者：[matijao](https://marketplace.visualstudio.com/publishers/matijao)
+- 简介：现代Vue生态系统的片段 - 包括Nuxt 3、Pinia、VueUse、Vue路由器和Vue Macros
+- 网站：[Vue 生态系统代码片段 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=matijao.vue-nuxt-snippets)
+
+### 92. npm Intellisense ✅
+
+- 发布者：[Christian Kohler](https://marketplace.visualstudio.com/publishers/christian-kohler)
+- 简介：Visual Studio Code 插件，用于在 import 语句中自动完成 npm 模块
+- 网站：[npm Intellisense - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
