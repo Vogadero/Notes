@@ -210,7 +210,7 @@
 
 ![](images/166.gif)
 
-### 22. ESLint Chinese Rules ✅
+### 22. ESLint Chinese Rules ❌
 
 - 发布者：maggie
 - 简介：ESLint中文规则辅助提示插件，帮助更便捷的查询引用的规则，理解规则。
@@ -880,7 +880,7 @@
 - 简介：uView-Helper 是一个针对使用 uView UI 的 VSCode 扩展，已支持 uView UI v2.x, uView Plus v3.x
 - 网站：[uview-helper - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=tntgroup.uview-helper)
 
-### 78. ESLint ✅
+### 78. ESLint ❌
 
 - 发布者：[Microsoft](https://marketplace.visualstudio.com/publishers/Microsoft)
 - 简介：将ESLint JavaScript集成到VS Code中
