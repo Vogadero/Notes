@@ -462,7 +462,7 @@
 
 - 简介：在 README.md 中生成项目的树结构
 
-- 快捷键：`Alt + M`
+- 快捷键：`Alt + E`
 
 - 扩展设置
 
@@ -982,3 +982,10 @@
 - 发布者：[Christian Kohler](https://marketplace.visualstudio.com/publishers/christian-kohler)
 - 简介：Visual Studio Code 插件，用于在 import 语句中自动完成 npm 模块
 - 网站：[npm Intellisense - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+
+### 93. Bookmarks ✅
+
+- 发布者：[Alessandro Fragnani](https://marketplace.visualstudio.com/publishers/alefragnani)
+- 简介：在代码中导航，轻松快速地在重要位置之间移动。无需再搜索代码，标记线条并跳转到它们
+- 网站：[书签 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+- 快捷键：`Alt + M`
