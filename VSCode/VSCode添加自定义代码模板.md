@@ -1,5 +1,7 @@
 # VSCode添加自定义代码模板
 
+[VS Code 代码片段指南: 从基础到高级技巧 - 简书](https://www.jianshu.com/p/3dc1b7f101bc)
+
 - 首先我们要找到这个模板设置的入口，在文件 - > 首选项 - > 用户代码片段
 
   ![](images/32.png)
@@ -74,34 +76,27 @@
 
   ```html
   <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
-
-<body>
-    <div id="app">
-
-    </div>
-    <script src="js/vue.js"></script>
-    <script type="text/javascript">
-        var vm = new Vue({
-            el: "#app",
-            data: {
-
-            },
-            methods: {
-                
-            },
-        })
-    </script>
-</body>
-
-</html>
-  ```
-
+  <html lang="en">
+      <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title></title>
+  </head>
+      <body>
+          </div>
+  <script src="js/vue.js"></script>
+  <script type="text/javascript">
+      var vm = new Vue({
+          el: "#app",
+          data: {
   
+          },
+          methods: {
+              
+          },
+      })
+  </script>
+      </body>
+  
+  </html>
