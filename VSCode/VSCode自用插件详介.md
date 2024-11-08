@@ -73,6 +73,7 @@
 - 简介：漂亮的代码格式化程序
 - 快捷键：`Alt+F`
 - 网站：[Prettier - Code formatter - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- 介绍：[vscode使用prettier格式化代码不起作用、配置不生效的解决方法_vscode prettier不生效-CSDN博客](https://blog.csdn.net/a843334549/article/details/115391605)
 
 ### 9. Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets 💥
 
