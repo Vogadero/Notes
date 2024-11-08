@@ -67,7 +67,7 @@
 
 ![](images/49.gif)
 
-### 8. Prettier - Code formatter ❌
+### 8. Prettier - Code formatter ✅
 
 - 发布者：[Prettier](https://marketplace.visualstudio.com/publishers/esbenp)
 - 简介：漂亮的代码格式化程序
