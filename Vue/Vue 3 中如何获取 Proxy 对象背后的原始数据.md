@@ -130,6 +130,19 @@ params[name] = (mode === 'multiple' || item.props.mode === 'tags)
     : rawValue.length ? rawValue.join(',') : undefined;
 ```
 
+## 6. 使用 `map`手动遍历并复制
+
+### 解释
+
+- **手动遍历并复制**：适用于简单的对象或数组，确保每个元素都被正确复制。
+
+### 示例代码
+
+```tsx
+// 如果 data 是一个数组，可以手动遍历并复制每个元素
+const newArray = data.map(item => ({ ...item }));
+```
+
 ## 总结
 
 > 选择哪种方法取决于你的具体需求和性能考虑。在大多数情况下，`toRaw` 方法是最优选择。
@@ -139,3 +152,4 @@ params[name] = (mode === 'multiple' || item.props.mode === 'tags)
 - **`Array.from(value)`**：适用于大多数情况，简单易用。
 - **扩展运算符 `...`**：简洁且易于理解。
 - **`Reflect.getPrototypeOf` 和 `Object.getOwnPropertyNames`**：适用于需要深入了解 `Proxy` 结构的场景。
+- **手动遍历并复制**：适用于简单的对象或数组，确保每个元素都被正确复制。
