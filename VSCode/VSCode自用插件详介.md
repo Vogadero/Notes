@@ -900,7 +900,7 @@
 - 简介：通义灵码-灵动指间，快码加编，你的智能编码助手
 - 网站：[TONGYI Lingma - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Alibaba-Cloud.tongyi-lingma)
 
-### 81. Baidu Comate ✅
+### 81. Baidu Comate ❌
 
 - 发布者：[Baidu Comate](https://marketplace.visualstudio.com/publishers/BaiduComate)
 - 简介：基于百度文心大模型 `ERNIE-Code` 的智能代码生成
@@ -990,3 +990,9 @@
 - 简介：在代码中导航，轻松快速地在重要位置之间移动。无需再搜索代码，标记线条并跳转到它们
 - 网站：[书签 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
 - 快捷键：`Alt + M`
+
+### 94. 腾讯云 AI 代码助手 ✅
+
+- 发布者：[Tencent Cloud](https://marketplace.visualstudio.com/publishers/Tencent-Cloud)
+- 简介：腾讯云 AI 代码助手是由腾讯云自研的一款开发编程提效辅助工具，基于混元代码大模型，提供技术对话、代码补全、代码诊断和优化等能力。
+- 网站：[腾讯云 AI 代码助手 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Tencent-Cloud.coding-copilot)
