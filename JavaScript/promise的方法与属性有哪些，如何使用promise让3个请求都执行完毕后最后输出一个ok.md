@@ -1,4 +1,4 @@
-## promise的方法与属性有哪些，如何使用promise让3个请求都执行完毕后最后输出一个ok
+# promise的方法与属性有哪些，如何使用promise让3个请求都执行完毕后最后输出一个ok
 
 Promise 是 JavaScript 中用于异步操作的对象，它代表了一个最终可能完成（fulfilled）或失败（rejected）的异步操作及其结果值。Promise 对象有以下主要方法和属性：
 

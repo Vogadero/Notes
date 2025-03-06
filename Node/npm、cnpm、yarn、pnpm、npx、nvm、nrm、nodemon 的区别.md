@@ -1,4 +1,4 @@
-##  npm、cnpm、yarn、pnpm、npx、nvm、nrm、nodemon 的区别
+#  npm、cnpm、yarn、pnpm、npx、nvm、nrm、nodemon 的区别
 
 > *我个人倾向于大项目使用 yarn，其余的小项目全部使用 npm，我也在尝试着使用 pnpm 了。*
 

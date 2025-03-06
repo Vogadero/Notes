@@ -37,11 +37,11 @@
     <div id="main"></div>
     ```
 
-    ![](images/19.png)
+    ![](C:\Users\Vogadero\Desktop\my-blog\docs\article\CSS\images\19.png)
 
   - 当标签为`div`时，还可以省略`div`标签，直接输入`#main`即可生成与上面相同的代码片段：
 
-    ![](images/20.png)
+    ![](C:\Users\Vogadero\Desktop\my-blog\docs\article\CSS\images\20.png)
 
 - #### 生成带有`class`的标签
 
@@ -51,11 +51,11 @@
     <div class="main"></div>
     ```
 
-    ![](images/21.png)
+    ![](C:\Users\Vogadero\Desktop\my-blog\docs\article\CSS\images\21.png)
 
   - 类似的，当标签为`div`时，还可以省略`div`标签，直接输入`.main`即可生成与上面相同的代码片段：
 
-    ![](images/22.png)
+    ![](C:\Users\Vogadero\Desktop\my-blog\docs\article\CSS\images\22.png)
 
 - #### 生成带有属性的标签
 
@@ -65,7 +65,7 @@
     <div name="syz" age="18"></div>
     ```
 
-    ![](images/23.png)
+    ![](C:\Users\Vogadero\Desktop\my-blog\docs\article\CSS\images\23.png)
 
 - #### 自定义属性
 
@@ -73,7 +73,7 @@
 
   - 方括号内的属性数量不限，如果你喜欢，可以一直加
 
-  - 如果不是默认属性值的话会生成插入占位 比如：div[title colspan] 会变成 <div title="" colspan=""> **前提是编辑器支持这样的写法**
+  - 如果不是默认属性值的话会生成插入占位 比如：`div[title colspan]` 会变成 `<div title="" colspan="">`  **前提是编辑器支持这样的写法**
 
   - 属性值可以使用单引号或者双引号都可以
 
@@ -95,7 +95,7 @@
     </ul>
     ```
 
-    ![](images/24.png)
+    ![](C:\Users\Vogadero\Desktop\my-blog\docs\article\CSS\images\24.png)
 
 - #### 生成标签内文本
 
@@ -105,7 +105,7 @@
     <div>文本内容</div>
     ```
 
-    ![](images/25.png)
+    ![](C:\Users\Vogadero\Desktop\my-blog\docs\article\CSS\images\25.png)
 
 - #### 子节点生成
 
@@ -115,7 +115,7 @@
     <div><span></span></div>
     ```
 
-    ![](images/26.png)
+    ![](C:\Users\Vogadero\Desktop\my-blog\docs\article\CSS\images\26.png)
 
 - #### 兄弟节点生成
 
@@ -126,7 +126,7 @@
     <div></div>
     ```
 
-    ![](images/27.png)
+    ![](C:\Users\Vogadero\Desktop\my-blog\docs\article\CSS\images\27.png)
 
 - #### 父级兄弟节点生成
 
@@ -137,11 +137,11 @@
     <p></p>
     ```
 
-    ![](images/28.png)
+    ![](C:\Users\Vogadero\Desktop\my-blog\docs\article\CSS\images\28.png)
 
   - 顾名思义，当使用子节点生成使当前上下文处于子节点时，可以通过`^`操作符使上下文回到父节点处：
 
-    ![](images/29.png)
+    ![](C:\Users\Vogadero\Desktop\my-blog\docs\article\CSS\images\29.png)
 
   - 还可以使用多个`^`操作符使语境处于多个父级中，如`div>ul>li^^p`可生成如下代码片段：
 
@@ -154,7 +154,7 @@
     <p></p>
     ```
 
-    ![](images/30.png)
+    ![](C:\Users\Vogadero\Desktop\my-blog\docs\article\CSS\images\30.png)
 
 - #### 重复节点生成
 
@@ -166,7 +166,7 @@
     <div></div>
     ```
 
-    ![](images/31.png)
+    ![](C:\Users\Vogadero\Desktop\my-blog\docs\article\CSS\images\31.png)
 
 - #### 节点分组
 
@@ -181,7 +181,7 @@
     </div>
     ```
 
-    ![](images/32.png)
+    ![](C:\Users\Vogadero\Desktop\my-blog\docs\article\CSS\images\32.png)
 
   - 在这个例子中`(ul>li)`可看作一个整体，这里用字母`A`表示，则表达式转换为`div>A+p`，这时`p`标签就为`A`的兄弟节点。若不加`()`，输入`div>ul>li+p`则生成的代码片段如下，可以发现`p`标签变成了`li`标签的兄弟节点：
 
@@ -200,13 +200,13 @@
 
   - 输入`w100`即可生成`width: 100px`，输入`w100%`即可生成`width: 100%`；`height`同理。
 
-    ![](images/33.png)
+    ![](C:\Users\Vogadero\Desktop\my-blog\docs\article\CSS\images\33.png)
 
 - #### `margin`和`padding`
 
   - 输入`m10`即可生成`margin: 10px`，当要分别设置四个方向的属性值时，输入`m10px20px30px40px`即可生成代码片段`margin: 10px 20px 30px 40px`；`padding`同理。
 
-    ![](images/34.png)
+    ![](C:\Users\Vogadero\Desktop\my-blog\docs\article\CSS\images\34.png)
 
 - #### 属性值生成
 

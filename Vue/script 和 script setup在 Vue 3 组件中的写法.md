@@ -1,4 +1,4 @@
-## script 和 script setup在 Vue 3 组件中的写法
+# script 和 script setup在 Vue 3 组件中的写法
 
 `<script>` 和 `<script setup>` 在 Vue 3 组件中的写法有着显著的区别，主要体现在它们的语法糖和用途上。
 

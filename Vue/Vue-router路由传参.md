@@ -1,4 +1,4 @@
-## Vue-router路由传参
+# Vue-router路由传参
 
 [Vue 路由组件传参的 8 种方式](https://segmentfault.com/a/1190000039398462 "Vue 路由组件传参的 8 种方式")
 

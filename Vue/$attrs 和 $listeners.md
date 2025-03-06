@@ -1,4 +1,4 @@
-## `$attrs` 和 `$listeners` 
+# `$attrs` 和 `$listeners` 
 
 在Vue.js中，`$attrs` 和 `$listeners` 是两个非常有用的实例属性，它们允许组件以更灵活的方式处理来自父组件的属性和事件监听器。下面我将通过具体的例子来说明这两个属性的使用。
 

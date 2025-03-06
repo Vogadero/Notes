@@ -1,4 +1,4 @@
-## `apply()`、`call()` 和 `bind()`
+# `apply()`、`call()` 和 `bind()`
 
 `apply()`、`call()` 和 `bind()` 是 JavaScript 中三个非常有用的函数，它们都用于改变函数运行时的作用域（即函数体内的 `this` 指向），但它们之间有一些关键的区别。
 
