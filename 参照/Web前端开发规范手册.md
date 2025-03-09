@@ -78,8 +78,8 @@
 3. 链接状态样式为设计师对链接不同状态设定特殊样式，影响被使用本样式区域中的链接。
 
    - 该样式写法有2种
-     - a.nav:link   nav.a:link  第一种只能修饰***\*<a>\****标签中；
-     - 第二种可以修饰所有包含有***\*<a>\****标签的其他标签。
+     - a.nav:link   nav.a:link  第一种只能修饰`<a>`标签中；
+     - 第二种可以修饰所有包含有`<a>`标签的其他标签。
 
 4. 页面内的样式加载必须用链接方式
 
@@ -487,3 +487,40 @@ Response.cachecontrol = "no-cache"
      为什么同一文件中可以处理还要写在多个文件里面针对不同的浏览器?这是为了欺骗 W3C的验证工具,其实只需要两个文件,一个是针对所有浏览器的,一个只为 IE服务.将所有符合 W3C的代码写到一个里面去,而一些 IE中必须的,又不能通过 W3C验证的代码 (如: cursor:hand;)放到另一个文件中,再用下面的方法导入.
 
      ![](images/02.png)
+
+## 三、参考
+
+- [CSS2.0手册](./css2.0中文手册.chm)<a href="./css2.0中文手册.chm" download class="download-btn">
+    📥 CSS2.0手册.chm (258KB)
+  </a>
+
+- [CSS参考手册](./css参考手册4.2.3.chm)<a href="./css参考手册4.2.3.chm" download class="download-btn">
+    📥 CSS参考手册.chm (925KB)
+  </a>
+
+- [jQuery文档](./jQuery_3.3.1_API_Docs_CN.CHM)<a href="./jQuery_3.3.1_API_Docs_CN.CHM" download class="download-btn">
+    📥 CSS参考手册.chm (1.60MB)
+  </a>
+
+- [W3CSchool手册](./W3CSchool.chm)<a href="./W3CSchool.chm" download class="download-btn">
+    📥 CSS参考手册.chm (11.2MB)
+  </a>
+
+<style>
+.download-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 8px;
+  background: #f0f4ff;
+  border: 1px solid #409eff;
+  border-radius: 6px;
+  color: #409eff;
+  transition: all 0.3s;
+}
+.download-btn:hover {
+  background: #409eff;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(64,158,255,0.3);
+}
+</style>
