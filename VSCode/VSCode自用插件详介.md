@@ -996,3 +996,11 @@
 - 发布者：[Tencent Cloud](https://marketplace.visualstudio.com/publishers/Tencent-Cloud)
 - 简介：腾讯云 AI 代码助手是由腾讯云自研的一款开发编程提效辅助工具，基于混元代码大模型，提供技术对话、代码补全、代码诊断和优化等能力。
 - 网站：[腾讯云 AI 代码助手 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Tencent-Cloud.coding-copilot)
+
+### 95. HTTP Format - Formatter for plaintext .txt .http files With Standard REST Requests ✅
+
+- 发布者：[ab-498](https://marketplace.visualstudio.com/publishers/ab-498)
+- 简介：一个非常快速的 JSON、HTTP、txt、rest 文件格式化工具。
+- 网站：[HTTP 格式 - 使用标准 REST 请求对 .http 文件的纯文本.txt格式化程序 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ab-498.httpformat)
+
+![](images/176.gif)
