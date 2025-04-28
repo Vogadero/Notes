@@ -1004,3 +1004,11 @@
 - 网站：[HTTP 格式 - 使用标准 REST 请求对 .http 文件的纯文本.txt格式化程序 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ab-498.httpformat)
 
 ![](images/176.gif)
+
+### 96. GitHub Actions ✅
+
+- 发布者：[GitHub](https://marketplace.visualstudio.com/publishers/GitHub)
+- 简介：VS Code 中 github.com 托管存储库的 GitHub Actions 工作流和运行。
+- 网站：[GitHub Actions - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
+
+![](images/177.png)
