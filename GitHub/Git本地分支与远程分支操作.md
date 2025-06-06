@@ -116,6 +116,24 @@ Fetching origin
      git push origin --delete goodsdetail
      ```
 
+10. 配置双远程仓库
+
+   ```bash
+   # 进入现有项目目录（假设已克隆GitHub项目）
+   cd Guess-Pokémon-Game
+   
+   # 添加Gitee远程源（替代之前建议的单独克隆方式）
+   git remote add gitee https://gitee.com/Vogadero/guess-pokemon.git
+   
+   # 验证远程配置
+   git remote -v
+   # 应显示两个远程源：
+   # origin  https://github.com/Vogadero/guess-pokemon.git (fetch)
+   # origin  https://github.com/Vogadero/guess-pokemon.git (push)
+   # gitee   https://gitee.com/Vogadero/guess-pokemon.git (fetch)
+   # gitee   https://gitee.com/Vogadero/guess-pokemon.git (push)
+   ```
+
 ### 本地 `dev` 分支最新代码合并到远程新分支
 
 为了将本地 `dev` 分支的最新代码合并到远程新创建的 `hcms-1.33` 分支，你可以按照以下步骤操作：
