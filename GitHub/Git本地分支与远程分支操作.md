@@ -134,6 +134,117 @@ Fetching origin
    # gitee   https://gitee.com/Vogadero/guess-pokemon.git (push)
    ```
 
+### 2FA双因素认证下的HTTP协议推送
+
+> 在开启Gitee双因素认证后，需要将HTTP协议下的密码替换为**私人令牌（Personal Access Token, PAT）**
+
+1. **检查远程仓库的URL是否已更新**：确保远程仓库的URL中使用的是私人令牌，而不是密码。
+
+```bash
+# 查看当前远程仓库的URL
+git remote -v
+
+# 输出示例
+origin  https://gitee.com/your-username/your-repo.git (fetch)
+origin  https://gitee.com/your-username/your-repo.git (push)
+
+# 如果URL中仍使用密码（例如 https://username:password@gitee.com/...），需要更新为私人令牌
+git remote set-url origin https://<your-username>:<your-token>@gitee.com/your-username/your-repo.git
+
+# 验证更新后的URL
+git remote -v
+```
+
+2. **清除缓存的凭证**：Git可能会缓存旧的密码或令牌，导致推送失败。需要清除缓存的凭证并重新尝试。
+
+   - **方法一：使用命令行清除缓存**
+
+   ```bash
+   git credential-cache exit
+   ```
+
+   - **方法二：手动删除存储的凭据**
+     - **Windows**：
+       1. 打开 **控制面板** → **凭据管理器**。
+       2. 删除与 Gitee 相关的条目（例如 `git:https://gitee.com`）。
+       3. 重新推送代码，系统会提示输入新的私人令牌。
+     - **macOS**：
+       1. 打开 **钥匙串访问**（Keychain Access）。
+       2. 搜索 `gitee.com` 并删除相关条目。
+       3. 重新推送代码，系统会提示输入新的私人令牌。
+
+3. 确保私人令牌的权限正确
+
+私人令牌需要具备足够的权限才能推送代码。检查令牌的权限是否包含以下内容：
+
+- `public_repo`（公开仓库）或 `private_repo`（私有仓库）
+- `write_repository`（推送权限）
+
+**生成令牌时的权限设置参考：**
+
+- 登录 Gitee 账号，进入 **个人设置** → **安全设置** → **管理私人令牌**。
+- 点击 **新建令牌**，选择权限范围（至少包含 `public_repo` 或 `private_repo`）。
+- 保存令牌并重新测试推送。
+
+------
+
+4. 使用 `git push` 时直接输入令牌
+
+如果远程仓库的URL已更新，但推送时仍报错，可以尝试手动输入令牌：
+
+```bash
+git push https://<your-username>:<your-token>@gitee.com/your-username/your-repo.git
+```
+
+系统会提示你输入用户名和令牌（直接粘贴即可）。
+
+------
+
+5. 检查网络或防火墙限制
+
+如果上述步骤均正确，但推送失败，可能是网络问题或防火墙限制了 HTTPS 请求。尝试以下操作：
+
+- 更换网络环境（例如从公司网络切换到手机热点）。
+- 检查代理设置：
+
+```bash
+git config --global http.proxy
+```
+
+如果配置了代理，尝试关闭代理：
+
+```bash
+git config --global --unset http.proxy
+```
+
+------
+
+6. 完整示例流程
+
+假设你的用户名为 `myuser`，私人令牌为 `mytoken`，仓库地址为 `https://gitee.com/myuser/myrepo.git`，操作如下：
+
+```bash
+# 更新远程仓库URL
+git remote set-url origin https://myuser:mytoken@gitee.com/myuser/myrepo.git
+
+# 验证更新后的URL
+git remote -v
+
+# 推送代码
+git push origin main
+```
+
+------
+
+7. 常见错误及解决方法
+
+| **错误信息**                                                 | **可能原因**          | **解决方法**                       |
+| ------------------------------------------------------------ | --------------------- | ---------------------------------- |
+| `403 Forbidden`                                              | 私人令牌权限不足      | 检查令牌的权限并重新生成           |
+| `401 Unauthorized`                                           | 令牌无效或已过期      | 重新生成并更新远程仓库URL          |
+| `fatal: unable to access 'https://gitee.com/...': The requested URL returned error: 403` | 网络或防火墙限制      | 更换网络环境或关闭代理             |
+| `Username for 'https://gitee.com':`                          | 未正确更新远程仓库URL | 重新运行 `git remote set-url` 命令 |
+
 ### 本地 `dev` 分支最新代码合并到远程新分支
 
 为了将本地 `dev` 分支的最新代码合并到远程新创建的 `hcms-1.33` 分支，你可以按照以下步骤操作：
