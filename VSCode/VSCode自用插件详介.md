@@ -1005,7 +1005,7 @@
 
 ![](images/176.gif)
 
-### 96. GitHub Actions ✅
+### 96. GitHub Actions ❌
 
 - 发布者：[GitHub](https://marketplace.visualstudio.com/publishers/GitHub)
 - 简介：VS Code 中 github.com 托管存储库的 GitHub Actions 工作流和运行。
