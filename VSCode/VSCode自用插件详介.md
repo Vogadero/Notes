@@ -1012,3 +1012,11 @@
 - 网站：[GitHub Actions - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
 
 ![](images/177.png)
+
+### 97. GitHub Actions ✅
+
+- 发布者：[Augment Computing](https://marketplace.visualstudio.com/publishers/augment)
+- 简介：[Augment Code](https://augmentcode.com/) 是专为专业软件工程师和大型代码库构建的 AI 驱动的编码平台。由可理解整个代码库的尖端上下文引擎提供支持，使用 Agent、Completions、Chat 和 Next Edit 来加速您的编码方式。
+- 网站：[Augment - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=augment.vscode-augment)
+
+![](images/178.png)
