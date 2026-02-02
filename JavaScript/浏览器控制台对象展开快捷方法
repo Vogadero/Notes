@@ -1,0 +1,73 @@
+# 浏览器控制台对象展开快捷方法
+
+> 在浏览器控制台中，当对象被显示为(...)时，通常是因为该对象是一个引用类型（如对象或数组），并且被折叠显示以节省空间。要快速展开所有层级，有几种方法：
+
+## 1. **使用 JSON 序列化**
+
+```javascript
+JSON.stringify(obj, null, 2)  // 格式化输出
+JSON.parse(JSON.stringify(obj))  // 创建可完全展开的副本
+```
+
+## 2. **控制台快捷方法**
+
+```javascript
+console.log(JSON.parse(JSON.stringify(obj)))  // 完整展开
+console.dir(obj, { depth: null })  // 显示所有层级（Chrome/Edge）
+console.table(obj)  // 表格形式显示（适合数组或简单对象）
+```
+
+## 3. **Chrome/Edge 专属技巧**
+
+- **右键点击对象** → "存储为全局变量" → 会生成 `temp1` 变量
+- 然后使用：`copy(temp1)` 复制到剪贴板，粘贴到编辑器查看
+- **控制台设置**：齿轮图标 → 取消勾选 "启用自定义格式化程序"
+
+## 4. **使用展开操作符**
+
+```javascript
+{...obj}  // 浅层展开
+console.log({...obj})
+```
+
+## 5. **实用函数（添加到控制台）**
+
+```javascript
+// 深度复制并显示
+function expand(obj) {
+    return JSON.parse(JSON.stringify(obj));
+}
+
+// 带循环引用安全的版本
+function logExpanded(obj) {
+    console.log(JSON.stringify(obj, null, 2));
+}
+```
+
+## 6. **Node.js 风格（如果可用）**
+
+```javascript
+console.dir(obj, { depth: null, colors: true })
+util.inspect(obj, { depth: null, colors: true })
+```
+
+## 7. **浏览器扩展**
+
+- Chrome 扩展：**"Object Explorer"**
+- **Vue.js DevTools** / **React DevTools**（对应框架）
+- 使用开发者工具的 **"Sources"** 面板，在代码中设置断点查看
+
+## 8. **一键展开所有**
+
+在控制台中，可以：
+
+- 按住 **Alt/Option** 键点击展开箭头
+- 使用快捷键 **Ctrl+Alt+Click**（Windows）或 **Cmd+Option+Click**（Mac）
+
+## 推荐工作流：
+
+1. 对于简单对象：`JSON.stringify(obj, null, 2)`
+2. 对于复杂对象：右键 → "存储为全局变量" → `copy(temp1)`
+3. 日常调试：使用 `console.dir(obj, { depth: null })`
+
+这些方法能显著提高你查看嵌套对象的效率！
